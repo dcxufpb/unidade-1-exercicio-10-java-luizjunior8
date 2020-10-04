@@ -79,7 +79,9 @@ public class Loja {
         return this.inscricaoEstadual;
     }
 
+
     public static String Spacer = System.lineSeparator();
+
 
     public static boolean checker (String tested){
 		String k = "";
@@ -161,5 +163,4 @@ public class Loja {
 		 _cnpj + Spacer +
 		 _inscricao_estadual + Spacer);
 	}
-
 }
